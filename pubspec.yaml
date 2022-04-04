@@ -1,0 +1,85 @@
+name: grabup
+description: Grabup is an online joblisting and Gig app Designed and developed by moses eteku using flutter and laravel as backend.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+version: 4.0.0+4
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  intl:
+  scoped_model:
+  cupertino_icons:
+  cached_network_image:
+  email_validator:
+  image_picker: 0.8.3
+  http: 0.12.2
+  dio:
+  firebase_core: 1.6.0
+  shared_preferences:
+  google_sign_in:
+  flutter_spinkit:
+  flutter_staggered_grid_view:
+  flutter_svg:
+  cloud_firestore:
+  toast:
+  flutter_local_notifications:
+  firebase_database:
+  image_cropper:
+  path_provider:
+  google_fonts:
+  file_picker: 4.1.1
+  chewie:
+  photo_view:
+  string_validator:
+  firebase_messaging:
+  flutter_uploader: 3.0.0-beta.3
+  url_launcher:
+  another_flushbar:
+  flutter_html:
+  ntp:
+  change_app_package_name: ^1.0.0
+  flutter_share: ^1.0.2+1
+
+dev_dependencies:
+  flutter_launcher_icons:
+
+
+dependency_overrides:
+  image_picker_platform_interface: ^2.3.0
+  http: ^0.13.0
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path: "assets/icon.png"
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/
+    - assets/homescreen/
+    - assets/postjob/
+    - assets/loginregister/
+    - assets/jobdetails/
+    - assets/category/
+    - assets/chatScreen/
+    - assets/tabBar/
+    - assets/splashScreen/
+    - assets/placeholders/
+ 
+  fonts:
+    - family: Avir
+      fonts:
+        - asset: fonts/AvenirLTStd-Book.otf
+        - asset: fonts/AvenirLTStd-Medium.otf
+        - asset: fonts/AvenirLTStd-Roman.otf
+ 

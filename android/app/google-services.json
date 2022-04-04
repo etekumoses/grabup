@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "853660077115",
+    "firebase_url": "https://grabup-329af-default-rtdb.firebaseio.com",
+    "project_id": "grabup-329af",
+    "storage_bucket": "grabup-329af.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:853660077115:android:506028decec4b63fac201e",
+        "android_client_info": {
+          "package_name": "com.grabup.grabupapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "853660077115-v7d5af16gek2v6kepvi4bqvv66bss4ka.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.grabup.grabupapp",
+            "certificate_hash": "4868e74cd580cac116c4825496d87b402d0d92ca"
+          }
+        },
+        {
+          "client_id": "853660077115-r6dneeui1bn3ksaak3a3595m90b9amm1.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCrRhU5yAq1kul8jUDrdauiKLnFUlPlG1Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "853660077115-r6dneeui1bn3ksaak3a3595m90b9amm1.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
