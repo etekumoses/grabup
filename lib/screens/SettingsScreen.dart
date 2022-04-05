@@ -94,7 +94,7 @@ class _SettingsScreenState extends State<SettingsScreen> {
                         ? SERVER_ADDRESS +
                             '/storage/app/public/profile/' +
                             imageUrl
-                        : "",
+                        : "assets/placeholder.jpg",
                     imageErrorBuilder: (c, o, s) => Image.asset(
                         'assets/placeholder.jpg',
                         height: 100,

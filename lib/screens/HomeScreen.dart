@@ -108,43 +108,7 @@ class _HomeScreenState extends State<HomeScreen> with WidgetsBindingObserver {
     );
   }
 
-  header() {
-    return SafeArea(
-      child: Column(
-        mainAxisAlignment: MainAxisAlignment.center,
-        children: [
-          Padding(
-            padding: const EdgeInsets.fromLTRB(15, 0, 15, 0),
-            child: Row(
-              mainAxisAlignment: MainAxisAlignment.spaceBetween,
-              children: [
-                Text(
-                  HOME,
-                  style: TextStyle(
-                      color: BLACK, fontSize: 25, fontWeight: FontWeight.w800),
-                ),
-                InkWell(
-                  onTap: () {
-                    Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => SearchScreen(),
-                        ));
-                  },
-                  child: Image.asset(
-                    "assets/homescreen/search_header.png",
-                    height: 25,
-                    width: 25,
-                  ),
-                )
-              ],
-            ),
-          ),
-        ],
-      ),
-    );
-  }
-
+ 
   body() {
     return SingleChildScrollView(
       controller: scrollController,

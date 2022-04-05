@@ -778,6 +778,9 @@ class _PostProjectState extends State<PostProject> {
           ),
         ),
         bottomButtons(),
+         SizedBox(
+                    height: 15,
+                  ),
       ],
     );
   }
